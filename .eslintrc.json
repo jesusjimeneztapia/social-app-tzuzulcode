@@ -1,0 +1,22 @@
+{
+  "env": {
+    "browser": true,
+    "es2022": true,
+    "node": true
+  },
+  "extends": ["eslint:recommended", "next", "prettier"],
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 13,
+    "sourceType": "module"
+  },
+  "plugins": ["react"],
+  "rules": {
+    "quotes": ["error", "single"],
+    "semi": ["error", "never"],
+    "react/react-in-jsx-scope": "off",
+    "react/prop-types": "off"
+  }
+}
